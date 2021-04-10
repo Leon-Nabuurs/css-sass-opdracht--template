@@ -1,0 +1,10 @@
+@mixin std-tekstopmaak {
+  font-style: italic;
+}
+
+$basis-tekst-kleur: #090b08;
+$basis-achtergrond-kleur: #ecffe9;
+$knoppen-kleur: #000;
+$submit-knop: #c0eea9;
+
+$standard-padding: 20px;
