@@ -142,7 +142,7 @@ header .header__img {
   align-items: center;
   background: #97d279;
 }
-.hero .hero-img__img {
+.hero__img img {
   display: block;
   height: auto;
   width: 15.5em;

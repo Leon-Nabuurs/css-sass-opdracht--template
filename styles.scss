@@ -109,7 +109,7 @@ header {
   -moz-box-shadow: 0 10px 7px -9px rgba(0, 0, 0, 0.75);
   box-shadow: 0 10px 7px -9px rgba(0, 0, 0, 0.75);
 
-  & .header__img {
+  &__img {
     width: auto;
     padding-top: $standard-padding;
     height: 7.5em;
@@ -123,7 +123,7 @@ header {
   letter-spacing: 1px;
   padding-bottom: 1em;
 
-  & .title-right {
+  &-right {
     justify-content: flex-end;
   }
 }
@@ -134,7 +134,7 @@ header {
   background-color: $knoppen-kleur;
   margin-right: 1em;
 
-  & .line-right {
+  &-right {
     order: 2;
     margin-right: 0;
     margin-left: 1em;
@@ -149,14 +149,13 @@ header {
   align-items: center;
   background: #97d279;
 
-
-  & .hero-img__img {
+  &__img img {
     display: block;
     height: auto;
     width: 15.5em;
   }
 
-  & .hero-text {
+  &__text {
     @include std-tekstopmaak;
     max-width: 700px;
     text-align: center;
@@ -168,23 +167,23 @@ header {
 .featured {
   padding: $standard-padding;
 
-  & .featured-wrapper {
+  &__wrapper {
     display: flex;
     flex-wrap: wrap;
   }
 
-  & .wrapper-image__img {
+  &__img {
     width: 300px;
   }
 
-  & .text-featured {
+  &-text-featured {
     @include std-tekstopmaak;
     max-width: 700px;
     text-align: center;
     padding: $standard-padding;
   }
 
-  & .featured__p {
+  &__p {
     @include std-tekstopmaak;
     text-align: justify;
     padding: $standard-padding;
@@ -198,10 +197,10 @@ header {
   background-color: #97d279;
   padding: $standard-padding;
 
-  & .about-wrapper {
+  &-wrapper {
     display: flex;
 
-    & .text-about {
+    &-text-about {
       max-width: 700px;
       text-align: center;
       padding: $standard-padding;
@@ -215,7 +214,7 @@ header {
     }
   }
 
-  & .video-wrapper {
+  &__video-wrapper {
     position: relative;
     padding-bottom: 33.25%;
     overflow: hidden;
